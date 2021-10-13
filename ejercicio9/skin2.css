@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --page-background: #ffffff;
+    --background-banner: url("https://www.solofondos.com/wp-content/uploads/2016/10/fondo-de-pantalla-color-rojo-hd.jpg");
+    --background-nav: transparent;
+    --letter-color: rgba(200, 200, 200, 1);
+    --font-size-nav: 1.2rem;
+    --font-size-banner: 2rem;
+    --background-color-section-odd: rgba(50, 50, 50, 1) ;
+    --background-color-section-even: rgba(200, 50, 50, 1);
+    --letter-color-even: rgba(200, 200, 200, 1);;
+    --letter-color-odd: rgba(200, 50, 50, 1);
+    --a-color-odd: rgba(200, 50, 50, 1);
+    --a-color-even: rgba(200, 200, 200, 1);;
+    --buton-color: rgba(250, 100, 100, 1);
+    --button-content-color: white;
+}

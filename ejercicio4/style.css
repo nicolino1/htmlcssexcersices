@@ -1,0 +1,94 @@
+ body {
+     background-color: #f5f7f8;;
+ }
+
+ .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 20%;
+    height: 45%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: system-ui;
+    line-height: 1.4;
+    
+
+}
+
+.container:hover {
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.container div:first-child {
+    float: top;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    height: 40%;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: ease-out 0.3s;
+    
+}
+
+.container div:first-child:hover {
+    transform: scale(1.1);
+}
+
+.container div:last-child {
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 60%; 
+    padding: 15px;
+}
+
+.container div:last-child button {
+    margin-top: 20px;
+    border: none;
+    color: rgba(200, 200, 200, 1);
+    background-color: white;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.container div:last-child button:hover {
+    color:rgba(150, 150, 150, 1)
+}
+
+
+
+.container div:last-child h2 {
+    text-transform: capitalize;
+    color: #515151;
+    font-weight: bold;
+    letter-spacing: .05em;
+    width: 90%;
+}
+
+.container div:last-child p {
+    color: #515151;
+    font-weight: 500;
+    font-size: 16px;        
+    width: 90%;
+}
+
+.container div:last-child p::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+
+

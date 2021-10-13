@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+    --page-background: #ffffff;
+    --background-banner: url("https://inovatik.com/nico/images/header-background.jpg");
+    --background-nav: rgba(200, 200, 200, 0.8);
+    --letter-color: white;
+    --font-size-nav: 1.5rem;
+    --font-size-banner: 1.7rem;
+    --background-color-section-odd: rgba(200, 200, 200, 1) ;
+    --background-color-section-even: rgba(4, 120, 102, 1);
+    --letter-color-even: white;
+    --letter-color-odd: black;
+    --a-color-odd: black;
+    --a-color-even: white;
+    --buton-color: aquamarine;
+    --button-content-color: white;
+    --font-family: 'Poppins', sans-serif;
+}

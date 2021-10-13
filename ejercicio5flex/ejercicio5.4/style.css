@@ -1,0 +1,116 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --background-page: #80afcd;
+    --background-image: url("https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80 [images.unsplash.com]");
+}
+
+ body {
+    background-color: var(--background-page);
+ }
+
+ .external {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container {
+    position: absolute;
+    background-color: white;
+    height: 65%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: var(--font-family);
+
+    
+
+}
+
+.container > div:first-child {
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: 75%;
+    padding: 5px;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center center;
+    align-items: flex-end;
+    
+}
+
+.container > div:first-child > div {
+    display: flex;
+    background-color: rgba(50, 50, 50, 0.3);
+    width: 80%;
+    padding: 5px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.container > div:first-child > div > span {
+    position: relative;
+    color: white;
+}
+
+.container > div:first-child > div > span > i {
+    margin-right: 10px;
+}
+
+
+
+
+.container > div:last-child {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: #4a4a4e;
+    height: 20%;
+    padding: 15px;
+}
+
+.container > div:last-child > div:first-child {
+    width: 30%;
+}
+
+.container > div:last-child > div:first-child > img {
+    display: block;
+    width: 80%; 
+    height: 80%;
+    border-radius: 50%;
+}
+
+
+
+h3 {
+    margin: 0px; 
+    padding: 0px;
+}
+
+.container > div:last-child > div:last-child {
+    width: 70%;
+}
+.container > div:last-child > div:last-child > h3 {
+    text-transform: capitalize;
+    color: #515151;
+    font-weight: bold;
+}
+
+.container > div:last-child > div:last-child > p {
+    color: grey;
+    font-weight: 500;
+    padding: 0px;
+    margin:0px;
+    font-size: 14px;        
+}
+
+
+
+
+
+

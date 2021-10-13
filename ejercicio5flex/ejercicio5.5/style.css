@@ -1,0 +1,77 @@
+:root {
+    --font-family: Tahoma,Verdana,Segoe,sans-serif;
+    --background-color: #f7f5ec;
+    --background-page: #ffffff;
+}
+
+ body {
+    background-color: var(--background-page);
+ }
+
+ .external {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-page);
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: var(--font-family) ; 
+
+    
+
+}
+
+.container > div {
+
+    text-align: center;
+    position: relative;
+    background-color: var(--background-color);
+    color: #4a4a4e;
+    padding: 15px;
+    margin-left: 40px;
+}
+
+.container > div > div:first-child {
+    position: relative;
+    border: none;   
+    overflow: hidden;
+}
+
+.container > div > div:first-child > img {
+    display: block;
+    margin: 30px auto;
+    width: 60%; 
+    height: 60%;
+    border-radius: 50%;
+
+}
+
+.container > div > div:last-child > h2 {
+    text-transform: capitalize;
+    margin: 0px;
+    color: #515151;
+    font-weight: bold;
+}
+
+.container > div > div:last-child > p {
+    color: grey;
+    font-weight: 500;
+    font-size: 16px;        
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+

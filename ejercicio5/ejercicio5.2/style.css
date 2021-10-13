@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+ body {
+    background: #FAFAFC;
+ }
+
+ .container {
+    position: absolute;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 30%;
+    height: 65%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: 'Poppins';
+
+    
+
+}
+
+.container div:first-child {
+
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    height: 40%;
+    background-image: url("https://images.unsplash.com/photo-1631714777290-d81bbb3ef248?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMjM5Nzk0NA&ixlib=rb-1.2.1&q=80&w=1600 [images.unsplash.com]");
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+
+.container div:last-child {
+    align-items: center;
+    position: relative;
+
+    color: #4a4a4e;
+    width: 100%;
+    height: 60%; 
+    padding: 15px;
+}
+
+.container div:last-child span {
+    background-color: rgba(230, 230, 240, 1);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+    margin: 7px;
+    border: none;
+    max-width: 200px;
+    font-weight: bold;
+    
+}
+
+.container div:last-child button:hover {
+    color:rgba(150, 150, 150, 1)
+}
+
+
+
+.container div:last-child h2 {
+    text-transform: capitalize;
+    margin: 0px;
+    color: #515151;
+    font-weight: bold;
+    width: 90%;
+}
+
+.container div:last-child p {
+    color: #515151;
+    font-weight: 500;
+    font-size: 16px;        
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.container div:last-child p::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+ body {
+     background-color: #aedaa6;
+ }
+
+ .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 45%;
+    box-shadow: 4px 3px 8px 1px #aedaa6;
+    overflow: hidden;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.container div {
+    float: left;
+    padding: 50px; 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.container div img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.container div:last-child {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid rgba(200, 200, 200, 1);
+    float: right;   
+    background-color: white;
+}
+
+.container div:last-child button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(200, 200, 200, 1);
+    color: #515151;
+    background-color: white;
+    max-width: 200px;
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+
+
+.container div:last-child h1 {
+    text-transform: uppercase;
+    color: #515151;
+    font-weight: 300;
+}
+
+.container div:last-child h3 {
+    color: #515151;
+    text-transform: uppercase;
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.container div:last-child span {
+    font-size: x-large;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.container div:last-child p {
+    color: #515151;
+    font-weight: 500;
+    font-size: 16px;        
+    width: 90%;
+}
+
+
+
+
+
+
